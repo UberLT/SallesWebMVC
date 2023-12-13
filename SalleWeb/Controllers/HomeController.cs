@@ -23,6 +23,14 @@ namespace SalleWeb.Controllers
             return View();
         }
 
+        public IActionResult About()
+        {
+            ViewData["Message"] = "Salles Web from C# Course";
+            ViewData["email"] = "uberlan9@gmail.com";
+
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
