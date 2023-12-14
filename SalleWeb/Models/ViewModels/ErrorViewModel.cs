@@ -1,4 +1,4 @@
-namespace SalleWeb.Models
+namespace SalleWeb.Models.ViewModels
 {
     public class ErrorViewModel
     {

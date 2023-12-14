@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using SalleWeb.Models;
+using SalleWeb.Models.ViewModels;
 using System.Diagnostics;
 
 namespace SalleWeb.Controllers
